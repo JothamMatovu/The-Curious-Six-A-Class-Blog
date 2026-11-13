@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Acham Jesca Ruth's colourful corner for art, fashion, design and making things by hand.">
+	<title>Jesca Makes Things | The Curious Six</title>
+	<style>
+		:root{--pink:#f5b5c8;--hot:#b93870;--purple:#513d76;--paper:#fff8f1;--yellow:#f6d96b}
+		*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:20px}body{margin:0;background:var(--pink);color:var(--purple);font:16px/1.55 "Trebuchet MS",Arial,sans-serif}a{color:inherit}.sheet{width:min(1000px,calc(100% - 32px));margin:30px auto;padding:clamp(22px,6vw,58px);background:var(--paper);border:2px solid var(--purple);box-shadow:9px 9px 0 var(--purple);transform:rotate(-.35deg)}.nav{display:flex;justify-content:space-between;gap:12px;font-size:11px;font-weight:bold;letter-spacing:.1em}.nav a{text-decoration:none}.title{text-align:center;padding:45px 0 30px}.sticker{display:inline-block;padding:7px 12px;background:var(--yellow);transform:rotate(-5deg);font-size:11px;font-weight:bold;text-transform:uppercase}.title h1{margin:16px 0 8px;font-size:clamp(48px,9vw,88px);line-height:.9;letter-spacing:-.07em}.title h1 span{color:var(--hot)}.title p{max-width:470px;margin:auto;color:#71647d}.about{display:grid;grid-template-columns:120px 1fr;align-items:center;gap:20px;margin:0 auto 24px;padding:19px;max-width:720px;border:1px dashed var(--hot);background:#fff0f4}.initials{width:100px;height:100px;display:grid;place-items:center;overflow:hidden;border-radius:50%;background:var(--hot);color:white;font-size:28px;font-weight:bold}.initials img{width:100%;height:100%;object-fit:cover}.about h2{margin:0 0 6px;font-size:20px}.about p{margin:0;color:#71647d;font-size:14px}.session-nav{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin:0 0 28px}.session-nav a{padding:8px 11px;background:var(--purple);color:white;font-size:11px;font-weight:bold;text-decoration:none}.board{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.card{min-height:230px;padding:22px;background:#fbe2ec;border:1px solid #edc1d0;transform:rotate(1deg);scroll-margin-top:16px}.card:nth-child(2){background:#f2ecff;transform:rotate(-1deg)}.card:nth-child(3){background:#fff0c2;transform:rotate(-1deg)}.card small{color:var(--hot);font-size:10px;font-weight:bold;letter-spacing:.13em;text-transform:uppercase}.card h2{margin:11px 0 8px;font-size:24px;line-height:1.1}.card p{margin:0;color:#62586c;font-size:14px}.back{display:block;margin:34px 0 0;text-align:center;color:var(--hot);font-size:13px;font-weight:bold}
+		.session-nav{align-items:center}.session-nav a[aria-current="location"]{background:var(--hot)}.theme-toggle{padding:8px 11px;border:1px solid var(--purple);background:transparent;color:var(--purple);font:11px "Trebuchet MS",Arial,sans-serif;font-weight:bold;cursor:pointer}.session-details{display:flex;flex-wrap:wrap;gap:6px 12px;margin:12px 0;color:#71647d;font-size:11px}.session-details b{color:var(--hot);text-transform:uppercase}.session-nav a:focus-visible,.theme-toggle:focus-visible{outline:2px solid var(--hot);outline-offset:3px}
+		body[data-theme="dark"]{background:#211a2d;color:#f5eafa}body[data-theme="dark"] .sheet{background:#2b2437;border-color:#a98bc4;box-shadow:9px 9px 0 #171321}body[data-theme="dark"] .title p,body[data-theme="dark"] .about p,body[data-theme="dark"] .card p,body[data-theme="dark"] .session-details{color:#dacde2}body[data-theme="dark"] .about{background:#382b43;border-color:#8f6785}body[data-theme="dark"] .card{background:#3a2d43;border-color:#765a80}body[data-theme="dark"] .card:nth-child(2){background:#342e4d}body[data-theme="dark"] .card:nth-child(3){background:#49402e}body[data-theme="dark"] .session-nav a,body[data-theme="dark"] .theme-toggle{border-color:#c980ad;color:#f6e8f4}body[data-theme="dark"] .session-nav a[aria-current="location"],body[data-theme="dark"] .theme-toggle{background:var(--hot);color:white}
+		@media(max-width:700px){.board{grid-template-columns:1fr}.card{min-height:0}}
+		@media(max-width:600px){.sheet{margin:15px auto}.about{grid-template-columns:70px 1fr}.initials{width:60px;height:60px;font-size:20px}.nav{font-size:9px}}
+		p{text-align:justify}
+	</style>
+</head>
+<body>
+	<div class="sheet">
+		<header class="nav"><a href="index.html#members">← THE CURIOUS SIX</a><span>ACHAM JESCA RUTH · 03 · REG. NO. 25/U/03622/PS</span></header>
+		<main>
+			<section class="title"><span class="sticker">A little colour goes a long way</span><h1>Jesca makes<br><span>things.</span></h1><p>Welcome to my bright corner for trying ideas, playing with style and making something with my hands.</p></section>
+			<section class="about"><div class="initials"><img src="jesca.jpeg" alt="Acham Jesca Ruth"></div><div><h2>Hi, I'm Jesca!</h2><p>I love art, fashion and design. I collect colours and ideas, then see what happens when I put them together.</p></div></section>
+			<nav class="session-nav" aria-label="Jesca's blog sessions"><a href="#session-1" aria-current="location">Session 1 · About me</a><a href="#session-2">Session 2 · My interests</a><a href="#session-3">Session 3 · What I learned</a><button class="theme-toggle" type="button" aria-pressed="false">Switch to dark theme</button></nav>
+			<section class="board" aria-label="Jesca's three blog sessions">
+				<article class="card" id="session-1"><small>Session 1 · Introduction</small><div class="session-details"><span><b>Topic</b> About me</span></div><h2>Hi, I'm Jesca</h2><p>I'm Acham Jesca Ruth. I'm happiest when I'm making something, trying a new style or turning an idea into colour and shape. This page is my creative space.</p></article>
+				<article class="card" id="session-2"><small>Session 2 · Art, fashion &amp; design</small><div class="session-details"><span><b>Topic</b> Creative interests</span></div><h2>Make something from a mood</h2><p>I collect colours and ideas from the world around me. A sketchbook, fabric scraps or a new outfit gives me a way to experiment and show what inspires me.</p></article>
+				<article class="card" id="session-3"><small>Session 3 · Reflection</small><div class="session-details"><span><b>Topic</b> Learning through creativity</span></div><h2>Let the first try be imperfect</h2><p>Making things has taught me that a first attempt does not need to be perfect. Trying different combinations, learning from mistakes and keeping going is how I find ideas that feel like my own.</p></article>
+			</section>
+		</main>
+		<footer><a class="back" href="index.html#members">Back to all six members ↗</a></footer>
+	</div>
+	<script>
+		const themeToggle=document.querySelector(".theme-toggle");
+		themeToggle.addEventListener("click",()=>{const isDark=document.body.dataset.theme!=="dark";document.body.dataset.theme=isDark?"dark":"light";themeToggle.setAttribute("aria-pressed",String(isDark));themeToggle.textContent=isDark?"Switch to light theme":"Switch to dark theme"});
+		document.querySelectorAll(".session-nav a").forEach(link=>link.addEventListener("click",()=>{document.querySelectorAll(".session-nav a").forEach(item=>item.removeAttribute("aria-current"));link.setAttribute("aria-current","location")}));
+	</script>
+</body>
+</html>
